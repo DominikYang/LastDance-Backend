@@ -17,6 +17,10 @@
         <module>last-dance-dependencies</module>
         <module>demo-provider</module>
         <module>demo-consumer</module>
+        <module>demo-dubbo-provider</module>
+        <module>demo-dubbo-consumer</module>
+        <module>last-dance-provider</module>
+        <module>last-dance-business</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
