@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: user-provider
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.93.245.153:3308/last_dance?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: Key123456
+dubbo:
+  scan:
+    base-packages: com.dominikyang.lastdance.user.impl
+  protocol:
+    name: dubbo
+    port: -1
+    serialization: kryo
+  registry:
+    address: nacos://47.93.245.153:8848
+    port: 80
+mybatis:
+  type-aliases-package: com.dominikyang.lastdance.user.domain
+  mapper-locations: classpath:mapper/*.xml

@@ -9,10 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>last-dance-provider</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>user-provider-api</module>
-        <module>user-provider-service</module>
-    </modules>
+    <artifactId>last-dance-commons</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+
+
 </project>

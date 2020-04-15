@@ -21,6 +21,8 @@
         <module>demo-dubbo-consumer</module>
         <module>last-dance-provider</module>
         <module>last-dance-business</module>
+        <module>last-dance-commons</module>
+        <module>last-dance-gateway</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
