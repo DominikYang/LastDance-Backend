@@ -1,4 +1,4 @@
-package com.dominikyang.lastdance.user.impl.service;
+package com.dominikyang.lastdance.user.service;
 
 import com.dominikyang.lastdance.user.api.EchoService;
 import org.apache.dubbo.config.annotation.Service;

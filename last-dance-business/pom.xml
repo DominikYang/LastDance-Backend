@@ -14,6 +14,7 @@
     <modules>
         <module>last-dance-business-outh2</module>
         <module>last-dance-business-user</module>
+        <module>last-dance-business-profile</module>
     </modules>
 
 

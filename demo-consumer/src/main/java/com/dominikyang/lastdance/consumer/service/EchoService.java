@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  */
 @FeignClient(value = "service-provider")
 public interface EchoService {
+
     @GetMapping(value = "/echo/{string}")
     String echo(@PathVariable("string") String string);
 }
