@@ -22,6 +22,12 @@ dubbo:
     port: 8848
 server:
   port: 9001
+# 开启 Feign 的 OKHttp 方式
+feign:
+  okhttp:
+    enabled: true
+  httpclient:
+    enabled: false
 management:
   endpoints:
     web:

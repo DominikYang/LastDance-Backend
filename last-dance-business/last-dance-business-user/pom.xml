@@ -86,7 +86,7 @@
         <!-- Projects Begin -->
         <dependency>
             <groupId>com.dominikyang</groupId>
-            <artifactId>last-dance-commons</artifactId>
+            <artifactId>commons-dto</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
@@ -102,7 +102,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.dominikyang.lastdance.user.business.UserBusinessApplication</mainClass>
+                    <mainClass>com.dominikyang.lastdance.business.UserBusinessApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

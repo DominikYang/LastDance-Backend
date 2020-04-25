@@ -90,7 +90,12 @@
         <!-- Projects Begin -->
         <dependency>
             <groupId>com.dominikyang</groupId>
-            <artifactId>last-dance-commons</artifactId>
+            <artifactId>commons-dto</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dominikyang</groupId>
+            <artifactId>commons-utils</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
@@ -102,6 +107,16 @@
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-okhttp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dominikyang</groupId>
+            <artifactId>business-profile-feign</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
         <!-- Projects End -->
     </dependencies>
     <build>
@@ -110,7 +125,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.dominikyang.lastdance.oauth2.business.BusinessOAuth2Application</mainClass>
+                    <mainClass>com.dominikyang.lastdance.business.BusinessOAuth2Application</mainClass>
                 </configuration>
             </plugin>
         </plugins>

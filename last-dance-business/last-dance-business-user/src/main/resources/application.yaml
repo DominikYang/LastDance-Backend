@@ -12,7 +12,7 @@ spring:
         server-addr: 47.93.245.153:8848
 dubbo:
   scan:
-    base-packages: com.dominikyang.lastdance.user.business.controller
+    base-packages: com.dominikyang.lastdance.business.controller
   protocol:
     name: dubbo
     port: -1

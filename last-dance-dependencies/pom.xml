@@ -138,6 +138,12 @@
                 <artifactId>okhttp</artifactId>
                 <version>4.0.1</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-okhttp -->
+            <dependency>
+                <groupId>io.github.openfeign</groupId>
+                <artifactId>feign-okhttp</artifactId>
+                <version>10.4.0</version>
+            </dependency>
             <!--Projects End-->
         </dependencies>
     </dependencyManagement>

@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>last-dance-business-profile</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>business-profile-feign</module>
+        <module>business-profile-service</module>
+    </modules>
 
 
 </project>
